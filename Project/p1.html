@@ -5,7 +5,229 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    header {
+        background-color: brown;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        margin: 0;
+    }
+
+    nav {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .naresh {
+        background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFrZXJ5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        margin: 10px;
+        margin-top: 40px;
+    }
+
+    .about {
+        background-color: rgb(243, 240, 237);
+        padding: 40px;
+        margin: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .menu {
+        background-color: rgb(243, 240, 237);
+        padding: 40px;
+        margin: 10px;
+        text-align: start;
+    }
+
+    .ul {
+        padding: 10px;
+        margin: 10px;
+        text-align: start;
+    }
+    .main {
+        border-radius: 20px;
+    }
+
+    .our {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .div {
+        background-color: rgb(243, 240, 237);
+         width: 300px;
+        height: 400px;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        border-radius: 15px;
+
+
+    }
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 30px;
+        margin: 20px;
+    }
+
+    .fullmenu  {
+        background-color: rgb(243, 240, 237);
+        padding: 40px;
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+.formm {
+    background-color: rgb(243, 240, 237);   
+    padding: 40px;
+    margin: 20px;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+}
+
+.submit-button {    background-color: rgb(71, 44, 170);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.submit-button:hover {
+    background-color: rgb(214, 27, 27);
+}   
+
+
+
+</style>
 <body>
+    <header>
+        <h1>Sweet Bakery 🧁 </h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Order</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
     
+    <section class="naresh">
+        <div class="name">
+            <h1 style="color: rgb(255, 255, 255);">Welcome to Sweet Bakery! ❤️ </h1>
+            <p>Enjoy our delicious pastries and baked goods made with love and the finest ingredients.</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <h1 style="color: brown; text-align: start;">About Us</h1>
+        <p style="margin: 20px; text-align: start;">At Sweet Bakery, we are passionate about creating mouthwatering treats that bring joy to our customers. Our skilled bakers use traditional recipes and high-quality ingredients to craft a variety of delectable pastries, cakes, and breads. Whether you're looking for a quick breakfast treat or a special dessert for a celebration, we have something for everyone. Visit us today and experience the sweet taste of our bakery!</p>
+    </section>
+
+    <section class="menu">
+        <div class="menudiv">
+            <h2 style="color: brown; ">Our Menu</h2>
+            <ul class="ul">
+                <li>Croissants</li>
+                <li>Chocolate Cake</li>
+                <li>Blueberry Muffins</li>
+                <li>Banana Bread</li>
+                </ul>
+        </div>
+    </section>
+
+    <section class="main">
+        <h1 style="color: brown; padding: 20px;">Our Popular Items</h1>
+        <div class="our">
+            <div class="div">
+                <img style="width: 250px; height: 200px;" src="https://static.vecteezy.com/system/resources/previews/040/666/265/non_2x/ai-generated-homemade-strawberry-cheesecake-a-sweet-indulgence-on-a-plate-generated-by-ai-free-photo.jpg" alt="">
+                <h1 style="padding: 50px; color: brown;">Strawberry Cheesecake</h1>
+                <h3><a style="color: rgb(127, 65, 226); text-decoration: none;" href="#">Buy 15000</a></h3>
+            </div>
+            <div class="div">
+                    <img  style="width: 250px; height: 200px;" src="https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?cs=srgb&dl=birthday-birthday-cake-cake-140831.jpg&fm=jpg" alt="">
+                    <h1 style="padding: 50px; color: brown;">Chocolate Cake</h1>
+                    <h3><a style="color: rgb(127, 65, 226); text-decoration: none;" href="#">Buy 20000</a></h3>     
+            </div>
+            <div class="div">
+                <img  style="width: 250px; height: 200px;" src="https://th.bing.com/th/id/R.20a16590e4ecbbbdc811b7b41e10b75c?rik=4JgTJXx18%2bfvuA&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f110000%2fvelka%2fbirthday-cake-14229611534jv.jpg&ehk=ibyzYtz%2fy0nKAc4hfvzFCefoxClE1%2fcP44nel%2fHIIKo%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h1 style="padding: 50px; color: brown;">Birthday Cake</h1>
+                <h3><a style="color: rgb(127, 65, 226); text-decoration: none;" href="#">Buy 25000</a></h3> 
+            </div>
+        </div>
+    </section>
+
+
+    <div class="fullmenu">
+        <h1 style="color: brown;">Full Menu List</h1>
+        <table border="1" border-type="solid" cellspacing="0" cellpadding="10" >
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Croissants</td>
+                <td>₹150</td>
+            </tr>
+            <tr>
+                <td>Chocolate Cake</td>
+                <td>₹200</td>
+            </tr>
+            <tr>
+                <td>Birthday Cake</td>
+                <td>₹250</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="formm">
+        <form action="">
+            <h1 style="color: brown; text-align: start;" >Place an order</h1>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="  Enter Your Name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="  Enter Your Email"><br><br>
+            <label for="choose">Item :</label>
+            <select id="choose" name="choose">
+                <option value="select">Select</option>
+                <option value="croissant">Croissants</option>
+                <option value="chocolatecake">Chocolate Cake</option>
+                <option value="birthdaycake">Birthday Cake</option>
+            </select><br><br>
+            <label for="message">Message:</label><br><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder=" Enter Your Message Here"></textarea><br><br>
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+    </div>
+    
+
 </body>
 </html>
